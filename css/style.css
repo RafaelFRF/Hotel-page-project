@@ -12,18 +12,36 @@
 
 #header {
   background: #191970;
+  border: none;
+  padding: 20px;
 }
 
 #header a {
-  margin-top: 15px;
-  padding: 15px 15px;
+  margin: 15px;
   color: #F5FFFA;
+  text-decoration: none;
 }
 
-#header a .btn {
-  
+#header .logo{
+  font-size: 26px;
+  font-weight: bold;
 }
 
-.container {
-  width: 120%;
+#header .btn {
+  display: block;
+  text-align: right;
+  font-size: 20px;
+}
+
+li .btn a:hover{
+  color: black;
+}
+
+.navbar {
+  list-style: none;
+  overflow: auto;
+}
+
+.navbar li {
+  float: right;
 }
