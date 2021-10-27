@@ -16,6 +16,10 @@
   padding: 20px;
 }
 
+.container {
+  display:inline-block;
+}
+
 #header a {
   margin: 15px;
   color: #F5FFFA;
@@ -28,9 +32,9 @@
 }
 
 #header .btn {
-  display: block;
-  text-align: right;
+  /* text-align: right; */
   font-size: 20px;
+
 }
 
 li .btn a:hover{
