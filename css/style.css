@@ -1,51 +1,64 @@
+/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  /* font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: baseline; */
+  text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
 }
 
 /* HEADER */
 
-#header {
+header {
   background: #191970;
   border: none;
-  padding: 20px;
+  padding: 15px;
 }
 
-.container {
-  display:inline-block;
+header .container {
+  display: inline;
+  width: 100%;
 }
 
-#header a {
-  margin: 15px;
+header a {
+  padding-right: 15px ;
   color: #F5FFFA;
-  text-decoration: none;
 }
 
-#header .logo{
+header .logo{
   font-size: 26px;
   font-weight: bold;
 }
 
-#header .btn {
-  /* text-align: right; */
-  font-size: 20px;
 
+li a:hover{
+  color: coral;
 }
 
-li .btn a:hover{
-  color: black;
-}
-
-.navbar {
+header ul {
   list-style: none;
-  overflow: auto;
+  float: right;
+  height: 100%;
+  padding-top: 4px;
 }
 
-.navbar li {
-  float: right;
+header ul li {
+  display: inline;
+  /* height: 35px; */
+  font-size: 20px;
+  /* border: 1px white; */
 }
+
+/* Main */
+
+img {
+  width: 100%;
+}
+
+/* Footer */
+
