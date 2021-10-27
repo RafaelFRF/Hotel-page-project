@@ -56,9 +56,23 @@ header ul li {
 
 /* Main */
 
+main {
+  display: block;
+}
+
 img {
   width: 100%;
+  position: relative;
 }
+
+main .container {
+  width: 100%;
+  position: absolute;
+  background:white;
+  /* opacity: 30%; */
+  color:#191970;
+} 
+
 
 /* Footer */
 
