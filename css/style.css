@@ -36,7 +36,7 @@ header .logo{
 }
 
 
-li a:hover{
+header li a:hover{
   color: coral;
 }
 
@@ -57,7 +57,6 @@ header ul li {
 /* Main */
 
 main {
-  
 }
 
 #container-image {
@@ -86,16 +85,30 @@ main {
 #box-text h1 {
   color: #191970;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
+  font-size: 3em;
 }
 
 #box-text p{
   text-align: justify;
   text-align: center;
+  color: #191970;
 }
 
-#button-about{
-  margin: auto;
+#btn-about{
+  border: none;
+  background-color:#191970;
+  border-radius: 5px;
+  color: snow;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+#btn-about:hover{
+  color: #191970;
+  background-color: coral;
 }
 
 spam {
