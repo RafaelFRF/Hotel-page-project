@@ -243,6 +243,22 @@ spam {
   float: right;
 }
 
+#bot-main {
+  position: relative;
+  background-image: url(../image_resources/view2.jpg);
+  background-size: cover;
+}
+
+#bot-title {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#bot-title h1 {
+  font-size: 1.4em;
+}
+
 /* Footer */
 
 footer {
