@@ -256,7 +256,37 @@ spam {
 }
 
 #bot-title h1 {
-  font-size: 1.4em;
+  font-size: 1.8em;
+}
+
+#bot-box-1, #bot-box-2 {
+  width: 90%;
+  height: 30%;
+  background: rgb(100,100,200,0.6);
+  margin-left: 5%;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+#bot-box-1 img, #bot-box-2 img {
+  width: 40%;
+  max-height: 30%;
+  border-radius: 50%;
+  margin-left: 10px;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+#bot-box-1 p, #bot-box-2 p {
+  font-size: 1.2em;
+  width: 45%;
+  height: 100%;
+  float: right;
+  /* margin: 25px 10px; */
+  margin: 20px 30px;
+  text-align: center;
 }
 
 /* Footer */
@@ -269,6 +299,6 @@ footer {
   width: 100%;
   text-align: center;
   background-color: darkgrey;
-  padding:20px;
   color: #191970;
+  padding: auto;
 }
