@@ -269,7 +269,7 @@ spam {
 }
 
 #bot-box-1 img, #bot-box-2 img {
-  width: 40%;
+  max-width: 200px;
   max-height: 30%;
   border-radius: 50%;
   margin-left: 10px;
