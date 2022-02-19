@@ -76,8 +76,12 @@ p {
 }
 
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  background: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
 }
 
 /* Navbar */
@@ -165,4 +169,26 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  /* Para ter os 3 na mesma linha */
+  padding: 50px;
+  /* O padding não vai alterar no tamanho para a parte externa, por causa do border-box do início */
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
