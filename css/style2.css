@@ -185,6 +185,14 @@ p {
   margin-bottom: 10px;
 }
 
+
+/* About Info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
 /* Footer */
 #main-footer {
   text-align: center;
@@ -192,3 +200,4 @@ p {
   color: #fff;
   padding: 20px;
 }
+
