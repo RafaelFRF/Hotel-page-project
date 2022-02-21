@@ -211,7 +211,7 @@ p {
 
 #about-info .info-right img {
   display: block;
-  /* Por padão é inline e para dar margin auto precisa estar como block */
+  /* Por padrão é inline e para dar margin auto precisa estar como block */
   margin: auto;
   width: 70%;
   border-radius: 50%;
